@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css照片墙</title>
+	<style type="text/css">
+		body{
+			background: linear-gradient(45deg,white,pink);
+		}
+		h1{
+			text-align: center;
+		}
+		.container{
+			margin: 60px auto;
+			position: relative;
+		}
+		img{
+			width: 268px;height: 200px;
+			border-radius: 12px;
+			position: absolute;
+			transition: 1s;
+			z-index: 1;
+		}
+		img:hover{
+			transform: 0deg;
+			transform: scale(1.2);
+			box-shadow: 10px 10px 15px #CCC;
+			z-index: 2;
+		}
+		.pic0{
+			left: 310px;top: 50px;
+			transform: rotate(-20deg);
+		}
+		.pic1{
+			left: 530px;top: 110px;
+			transform: rotate(30deg);
+		}
+		.pic2{
+			left: 930px;top: 360px;
+			transform: rotate(26deg);
+		}
+		.pic3{
+			left: 1110px;top: 200px;
+			transform: rotate(-38deg);
+		}
+		.pic4{
+			left: 830px;top: 150px;
+			transform: rotate(-10deg);
+		}
+		.pic5{
+			left: 1350px;top: 180px;
+			transform: rotate(23deg);
+		}
+		.pic6{
+			left: 670px;top: 310px;
+			transform: rotate(-18deg);
+		}
+	</style>
+</head>
+<body>
+	<h1>黄进文手废</h1>
+		<div class="container">
+
+			<img src="img/WechatIMG1230.jpeg" class="pic0">
+			<img src="img/WechatIMG1230.jpeg" class="pic1">
+			<img src="img/WechatIMG1230.jpeg" class="pic2">
+			<img src="img/WechatIMG1230.jpeg" class="pic3">
+			<img src="img/WechatIMG1230.jpeg" class="pic4">
+			<img src="img/WechatIMG1230.jpeg" class="pic5">
+			<img src="img/WechatIMG1230.jpeg" class="pic6">
+		</div>
+</body>
+</html>
